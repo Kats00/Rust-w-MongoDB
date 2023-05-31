@@ -68,7 +68,7 @@ fn main() {
 
     //mongodb atlas link here
     let mut client_options =
-        ClientOptions::parse("mongodb+srv://admin:admin1@cluster0.intl4dz.mongodb.net/?retryWrites=true&w=majority")
+        ClientOptions::parse("your-atlas-connection")
             .unwrap();
 
     let server_api = ServerApi::builder().version(ServerApiVersion::V1).build();
